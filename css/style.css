@@ -1,0 +1,702 @@
+#wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 640px) {
+  #wrap {
+    width: 100%;
+  }
+}
+#wrap > header {
+  position: relative;
+  height: 800px;
+  background-color: #5f0080;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header {
+    width: 100%;
+  }
+}
+#wrap > header > h1 {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: calc(50% - 450px);
+  top: 80px;
+  width: 900px;
+  height: 112px;
+  text-indent: -9999px;
+  background-image: url(./../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header > h1 {
+    width: 500px;
+    left: calc(50% - 250px);
+    background-size: 100px;
+  }
+}
+#wrap > header > h1:before, #wrap > header > h1:after {
+  position: absolute;
+  display: block;
+  width: 300px;
+  border-top: 1px solid #fff;
+  content: "";
+}
+#wrap > header > h1:before {
+  left: 30px;
+  top: 50%;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header > h1:before {
+    width: 150px;
+  }
+}
+#wrap > header > h1:after {
+  right: 30px;
+  top: 50%;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header > h1:after {
+    width: 150px;
+  }
+}
+#wrap > header > .txt {
+  width: 720px;
+  z-index: 100;
+  position: absolute;
+  left: calc(50% - 360px);
+  top: 220px;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header > .txt {
+    width: 564px;
+    left: calc(50% - 282px);
+  }
+}
+#wrap > header > .txt > p {
+  color: #fff;
+  font-weight: 1000;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header > .txt > p {
+    font-size: 4px;
+  }
+}
+#wrap > header > .txt > p:first-child {
+  font-size: 18px;
+}
+#wrap > header > .txt > p:last-child {
+  font-size: 60px;
+}
+@media screen and (max-width: 640px) {
+  #wrap > header > .txt > p:last-child {
+    font-size: 42px;
+  }
+}
+#wrap > header > .pone_image {
+  position: absolute;
+  left: calc(50% - 183px);
+  bottom: 0;
+  width: 365px;
+  height: 448px;
+  background-image: url(./../images/maket-phone.png);
+}
+#wrap > main > section.venefit1 {
+  position: relative;
+  height: 2000px;
+}
+@media screen and (max-width: 640px) {
+  #wrap > main > section.venefit1 {
+    width: 100%;
+  }
+}
+#wrap > main > section.venefit1 > .img {
+  position: absolute;
+  left: calc(50% - 52px);
+  top: 50px;
+  width: 104px;
+  height: 50px;
+  background-image: url(./../images/nom-1.png);
+}
+#wrap > main > section.venefit1 .welcome {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 166px;
+  text-align: center;
+}
+#wrap > main > section.venefit1 .welcome > h2 {
+  width: 600px;
+  margin-bottom: 10px;
+  color: #5f0080;
+  font-weight: bold;
+  font-size: 36px;
+}
+#wrap > main > section.venefit1 .welcome > p {
+  width: 600px;
+  margin-bottom: 46px;
+  color: #777;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 16px;
+}
+#wrap > main > section.venefit1 .welcome > p:last-child {
+  color: #baa5d3;
+  font-weight: normal;
+  font-size: 14px;
+}
+#wrap > main > section.venefit1 > .contents {
+  position: absolute;
+  top: 420px;
+  width: 100%;
+  margin: 0 auto;
+}
+#wrap > main > section.venefit1 > .contents:before {
+  position: absolute;
+  right: calc(50% + 104px);
+  top: -0.2%;
+  display: block;
+  width: 534px;
+  border: 1px solid #5f0080;
+  content: "";
+}
+#wrap > main > section.venefit1 > .contents:after {
+  position: absolute;
+  left: calc(50% + 104px);
+  top: -0.2%;
+  display: block;
+  width: 534px;
+  border: 1px solid #5f0080;
+  content: "";
+}
+#wrap > main > section.venefit1 > .contents > .option {
+  position: absolute;
+  top: -24px;
+  left: calc(50% - 106px);
+  width: 212px;
+  height: 47px;
+  text-indent: -9999px;
+  background-image: url(./../images/tac.png);
+}
+#wrap > main > section.venefit1 > .contents > .figmom {
+  width: 1000x;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 500px);
+  border: 1px solid #000;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure {
+  position: relative;
+  width: 920px;
+  height: 398px;
+  margin: 0 auto;
+  background-image: url(./../images/pic-1.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 640px) {
+  #wrap > main > section.venefit1 > .contents > .figmom > figure {
+    display: flex;
+    flex-flow: column;
+    border: none;
+  }
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure > figcaption {
+  position: absolute;
+  left: 400px;
+  top: 50%;
+  width: 584px;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 640px) {
+  #wrap > main > section.venefit1 > .contents > .figmom > figure > figcaption {
+    border: none;
+  }
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig1, #wrap > main > section.venefit1 > .contents > .figmom > figure.fig3 {
+  margin-top: 100px;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig1 > figcaption, #wrap > main > section.venefit1 > .contents > .figmom > figure.fig3 > figcaption {
+  font-weight: bold;
+  font-size: 22px;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig1 > figcaption > .price, #wrap > main > section.venefit1 > .contents > .figmom > figure.fig3 > figcaption > .price {
+  display: block;
+  margin-top: 20px;
+  position: relative;
+  font-size: 28px;
+  color: #777;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig1 > figcaption > .price:before, #wrap > main > section.venefit1 > .contents > .figmom > figure.fig3 > figcaption > .price:before {
+  position: absolute;
+  left: 30px;
+  top: calc(50% - 2px);
+  width: 30%;
+  border-bottom: 2px solid #777;
+  content: "";
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig1 > figcaption > .dc, #wrap > main > section.venefit1 > .contents > .figmom > figure.fig3 > figcaption > .dc {
+  position: absolute;
+  right: calc(50% - 30px);
+  top: calc(50% + 6px);
+  color: #5f0080;
+  font-size: 28px;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig2 {
+  top: 0;
+  margin-top: 100px;
+  background-image: url(./../images/pic-2.png);
+  background-position: right center;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig2 > figcaption {
+  left: 20px;
+  top: 50%;
+  font-weight: bold;
+  font-size: 22px;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig2 > figcaption > .price {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  color: #777;
+  font-size: 28px;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig2 > figcaption > .price:before {
+  position: absolute;
+  left: 30px;
+  top: calc(50% - 2px);
+  width: 30%;
+  border-bottom: 2px solid #777;
+  content: "";
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig2 > figcaption > .dc {
+  position: absolute;
+  right: calc(50% - 30px);
+  top: calc(50% + 6px);
+  color: #5f0080;
+  font-size: 28px;
+}
+#wrap > main > section.venefit1 > .contents > .figmom > figure.fig3 {
+  background-image: url(./../images/pic-3.png);
+}
+#wrap > main > section.venefit2 {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 810px;
+}
+#wrap > main > section.venefit2 > .img {
+  position: absolute;
+  left: calc(50% - 52px);
+  top: 50px;
+  width: 104px;
+  height: 50px;
+  background-image: url(./../images/nom-2.png);
+}
+#wrap > main > section.venefit2 > .free {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 166px;
+  text-align: center;
+}
+#wrap > main > section.venefit2 > .free > h2 {
+  width: 600px;
+  margin-bottom: 10px;
+  color: #5f0080;
+  font-weight: bold;
+  font-size: 36px;
+  color: #5f0080;
+}
+#wrap > main > section.venefit2 > .free > p {
+  width: 600px;
+  margin-bottom: 46px;
+  color: #777;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 16px;
+}
+#wrap > main > section.venefit2 > .free > p:last-child {
+  color: #777;
+  font-weight: bold;
+  font-size: 14px;
+}
+#wrap > main > section.venefit2 > .contents {
+  position: absolute;
+  left: calc(50% - 263px);
+  top: 300px;
+  width: 525px;
+  height: 444px;
+  background-image: url(./../images/car.png);
+}
+#wrap > main > section.venefit2 > .contents > p {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: 420px;
+  width: 200px;
+  color: #baa5d3;
+  font-weight: bold;
+  font-size: 14px;
+}
+#wrap > main > section.venefit3 {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}
+#wrap > main > section.venefit3 > .img {
+  position: absolute;
+  left: calc(50% - 52px);
+  top: 50px;
+  width: 104px;
+  height: 50px;
+  background-image: url(./../images/nom-3.png);
+}
+#wrap > main > section.venefit3 > .point {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 166px;
+  text-align: center;
+}
+#wrap > main > section.venefit3 > .point > h2 {
+  width: 600px;
+  margin-bottom: 20px;
+  color: #5f0080;
+  font-weight: bold;
+  font-size: 36px;
+  color: #5f0080;
+}
+#wrap > main > section.venefit3 > .point > p {
+  width: 600px;
+  margin-bottom: 46px;
+  color: #777;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 16px;
+}
+#wrap > main > section.venefit3 > .contents {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: calc(50% - 489px);
+  top: calc(50% - 90px);
+  width: 978px;
+}
+#wrap > main > section.venefit3 > .contents > img {
+  display: block;
+}
+#wrap > main > section.venefit3 > p {
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 640px;
+  width: 400px;
+  color: #baa5d3;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 14px;
+}
+#wrap > main > section.venefit4 {
+  position: relative;
+  height: 760px;
+}
+#wrap > main > section.venefit4 > .img {
+  position: absolute;
+  left: calc(50% - 52px);
+  top: 50px;
+  width: 104px;
+  height: 50px;
+  background-image: url(./../images/nom-4.png);
+}
+#wrap > main > section.venefit4 > .invited {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: 166px;
+  text-align: center;
+}
+#wrap > main > section.venefit4 > .invited > h2 {
+  width: 600px;
+  margin-bottom: 20px;
+  color: #5f0080;
+  font-weight: bold;
+  font-size: 36px;
+  color: #5f0080;
+  letter-spacing: -3px;
+}
+#wrap > main > section.venefit4 > .invited > p {
+  width: 600px;
+  margin-bottom: 46px;
+  color: #777;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 16px;
+}
+#wrap > main > section.venefit4 > .contents {
+  position: absolute;
+  left: calc(50% - 227px);
+  top: calc(50% - 70px);
+}
+#wrap > main > section.venefit4 > p {
+  position: absolute;
+  left: calc(50% - 230px);
+  top: 670px;
+  width: 460px;
+  color: #baa5d3;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 14px;
+}
+#wrap > main > .best {
+  position: relative;
+  width: 100%;
+  height: 840px;
+  background-color: #f6f6f6;
+}
+#wrap > main > .best > .contents {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+}
+#wrap > main > .best > .contents > h2 {
+  position: absolute;
+  left: calc(50% - 400px);
+  top: 66px;
+  text-align: center;
+  width: 800px;
+  margin-bottom: 10px;
+  color: #5f0080;
+  font-weight: bold;
+  font-size: 36px;
+  color: #5f0080;
+  letter-spacing: -3px;
+}
+#wrap > main > .best > .contents > .best_product {
+  position: absolute;
+  left: calc(50% - 558px);
+  top: 180px;
+}
+#wrap > main > .best > .contents > .best_product > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1116px;
+}
+#wrap > main > .best > .contents > .best_product > ul > li {
+  width: 249px;
+  background-repeat: no-repeat;
+}
+#wrap > main > .best > .contents > .best_product > ul > li:nth-child(1) {
+  background-image: url(./../images/pic-4.png);
+}
+#wrap > main > .best > .contents > .best_product > ul > li:nth-child(2) {
+  background-image: url(./../images/pic-5.png);
+}
+#wrap > main > .best > .contents > .best_product > ul > li:nth-child(3) {
+  background-image: url(./../images/pic-6.png);
+}
+#wrap > main > .best > .contents > .best_product > ul > li:nth-child(4) {
+  background-image: url(./../images/pic-7.png);
+}
+#wrap > main > .best > .contents > .best_product > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 319px;
+  text-indent: -9999px;
+}
+#wrap > main > .best > .contents > .best_product > ul > li > h3 {
+  margin-top: 20px;
+  color: #777;
+  font-size: 20px;
+  text-align: center;
+}
+#wrap > main > .best > .contents > .best_product > ul > li:hover > a {
+  border: 3px solid #5f0080;
+  box-sizing: border-box;
+}
+#wrap > main > .best > .button {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: calc(50% - 400px);
+  bottom: 60px;
+  width: 840px;
+}
+#wrap > main > .best > .button > p {
+  width: 381px;
+  background-image: url(./../images/btn-2.png);
+}
+#wrap > main > .best > .button > p > a {
+  display: block;
+  height: 84px;
+  padding-right: 20px;
+  line-height: 84px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -5px;
+}
+#wrap > main > .best > .button > p:hover {
+  background-image: url(./../images/btn-1.png);
+}
+#wrap > main > .best > .button > p:hover > a {
+  color: #5f0080;
+}
+#wrap > footer > .csMenu {
+  position: relative;
+}
+#wrap > footer > .csMenu > h3 {
+  position: absolute;
+  left: 84px;
+  top: -50px;
+  letter-spacing: 1.2;
+  font-size: 19px;
+  font-weight: bold;
+}
+#wrap > footer > .csMenu > .csPart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-left: 80px;
+  height: 230px;
+  border-bottom: 1px solid #ccc;
+}
+#wrap > footer > .csMenu > .csPart > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  padding-right: 80px;
+  font-size: 13px;
+  font-weight: bold;
+}
+#wrap > footer > .csMenu > .csPart > nav > ul > li:nth-child(5) {
+  font-size: 14px;
+  font-weight: 900;
+}
+#wrap > footer > .csMenu > .csPart > nav > p {
+  margin-top: 30px;
+  line-height: 1.4;
+  color: #777;
+}
+#wrap > footer > .csMenu > .csPart > nav > p > a {
+  color: #5f0080;
+}
+#wrap > footer > .csMenu > .csPart > nav > small {
+  display: inline-block;
+  margin-top: 16px;
+  color: #777;
+  font-size: 12px;
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button {
+  margin-top: 10px;
+  width: 120px;
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li {
+  margin-right: 5px;
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li > a {
+  display: block;
+  width: 29px;
+  height: 29px;
+  text-indent: -9999px;
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li:nth-child(1) > a {
+  background-image: url(./../images/ft-1.png);
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li:nth-child(2) > a {
+  background-image: url(./../images/ft-2.png);
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li:nth-child(3) > a {
+  background-image: url(./../images/ft-3.png);
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li:nth-child(4) > a {
+  background-image: url(./../images/ft-4.png);
+}
+#wrap > footer > .csMenu > .csPart > nav > .sns_button > li:nth-child(5) > a {
+  margin-right: 0;
+  background-image: url(./../images/ft-5.png);
+}
+#wrap > footer > .csMenu > .csPart > h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+#wrap > footer > .csMenu > .csPart > ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 450px;
+  height: 180px;
+}
+#wrap > footer > .csMenu > .csPart > ul > li:nth-child(1) > ol > li:nth-child(1) {
+  display: flex;
+  justify-content: flex-start;
+  width: 120px;
+  font-size: 21px;
+  border: none;
+}
+#wrap > footer > .csMenu > .csPart > ul > li > ol {
+  display: flex;
+  width: 450px;
+}
+#wrap > footer > .csMenu > .csPart > ul > li > ol > li > span {
+  display: inline-block;
+  color: #777;
+}
+#wrap > footer > .csMenu > .csPart > ul > li > ol > li:nth-child(1) {
+  width: 120px;
+  height: 36px;
+  margin-right: 10px;
+  line-height: 36px;
+  color: #222222;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+#wrap > footer > .csMenu > .csPart > ul > li > ol > li:nth-child(2) {
+  padding: 4px;
+  line-height: 1.3;
+}
+#wrap > footer > .csMenu > .mark {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+#wrap > footer > .csMenu > .mark > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  height: 40px;
+  margin-top: 16px;
+}
+#wrap > footer > .csMenu > .mark > ul > li:nth-child(1) > ol > li:nth-child(1) {
+  width: 38px;
+  height: 37px;
+  background-image: url(./../images/fter-1.png);
+}
+#wrap > footer > .csMenu > .mark > ul > li:nth-child(2) > ol > li:nth-child(1) {
+  width: 37px;
+  height: 36px;
+  background-image: url(./../images/fter-2.png);
+}
+#wrap > footer > .csMenu > .mark > ul > li:nth-child(3) > ol > li:nth-child(1) {
+  width: 106px;
+  height: 35px;
+  background-image: url(./../images/fter-3.png);
+}
+#wrap > footer > .csMenu > .mark > ul > li > ol {
+  display: flex;
+  width: 102%;
+  justify-content: space-between;
+}
+#wrap > footer > .csMenu > .mark > ul > li > ol > li:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+  line-height: 1.4;
+  font-size: 11px;
+}/*# sourceMappingURL=style.css.map */
